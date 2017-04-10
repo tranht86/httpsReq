@@ -7,6 +7,7 @@ function getAndPrintHTMLChunks() {
 
   var https = require('https');
 
+
   https.get(requestOptions, function (response) {
 
     //set encoding to UTF-8

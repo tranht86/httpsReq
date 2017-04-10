@@ -2,7 +2,7 @@ function getAndPrintHTML() {
 
   var requestOptions = {
     host: 'sytantris.github.io',
-    path: '/html-examples/step2.html'
+    path: '/http-examples/step2.html'
   };
 
   /* Add your code here*/
@@ -17,7 +17,7 @@ function getAndPrintHTML() {
       response.on('data', function (data) {
         a += data;
       console.log('Chunk received. Length: ', data.length);
-      console.log(data)
+      // console.log(data)
       });
 
       response.on('end', function() {
